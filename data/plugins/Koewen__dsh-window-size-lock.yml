@@ -1,6 +1,5 @@
 url: https://github.com/Koewen/dsh-window-size-lock
 name: Koewen/dsh-window-size-lock
 category: wsl
-description:
-  en: "Restores the DeepSeek Harness main window to its last user-set size on each launch, re-asserts it against the default 1280x820 layout for a short grace period, and saves stable manual resizes as the new lock."
-  zh: "记住 DeepSeek Harness 主窗口尺寸：启动时恢复上次调整的大小，并在宽限期内反复断言以压过默认 1280x820 布局；手动调整窗口后自动保存为新锁定。"
+description:/n  en: "Remembers the DeepSeek Harness main window's size AND position: restores both on every launch (re-asserted during a grace period to beat the default layout), saves stable manual moves/resizes as the new lock, never records minimized/maximized/fullscreen states, and stays on-screen when monitors change."
+  zh: "记住 DeepSeek Harness 主窗口的尺寸与位置：启动时恢复上次的位置和大小，并在宽限期内反复断言以压过默认布局；手动移动或调整窗口后自动保存为新锁定；最小化/最大化/全屏状态不会被记录；更换显示器时自动防屏外。"
